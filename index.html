@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=nomaximum-scale=1,user-scalable=0" />
+
+    <title>Señor Grooming Lounge</title>
+    <link rel="icon" href="images/senorfavicon.png" type="image/png" sizes="16x16" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+    <style>
+      .senor-bg {
+        background-image: url(images/senor_bg_web.jpg);
+        background-position: top center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        height: 100vh;
+        background-attachment: fixed;
+      }
+
+      .scontent {
+        position: relative;
+      }
+
+      /* buttons */
+      .btn-senor-container {
+        position: absolute;
+        z-index: 1;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+      }
+
+      .btn-senor {
+        text-align: center;
+        padding: 5px;
+        float: left;
+      }
+
+      .btn-senor-container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .appointment-img,
+      .service-img {
+        width: 100%;
+        opacity: 0.6;
+      }
+
+      .appointment-img:hover,
+      .service-img:hover {
+        opacity: 1;
+      }
+
+      /* social */
+
+      .senor-social {
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+        width: 3%;
+        height: 4%;
+      }
+
+      .btn-instagram {
+        left: 36.2%;
+        bottom: 3%;
+      }
+
+      .btn-facebook {
+        left: 39.5%;
+        bottom: 3%;
+      }
+
+      @media (max-width: 1440px) {
+        .scontent img {
+          max-width: 600px;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        .scontent img {
+          max-width: 776px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .senor-bg {
+          background-image: url(images/senor_bg_tab.jpg);
+        }
+
+        .btn-instagram {
+          left: 38.9%;
+          bottom: 19.5%;
+        }
+
+        .btn-facebook {
+          left: 42.2%;
+          bottom: 19.5%;
+        }
+
+        .scontent img {
+          max-width: 776px;
+        }
+
+        .btn-senor-container {
+          position: absolute;
+          z-index: 1;
+          top: 62%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+        }
+      }
+
+      @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+        .scontent img {
+          max-width: 1000px;
+        }
+      }
+
+      @media only screen and (device-width: 768px) and (device-height: 1024px) {
+        .senor-bg {
+          background-image: url(images/senor_bg_tab.jpg);
+        }
+      }
+
+      @media (max-width: 575px) {
+        .senor-bg {
+          background-image: url(images/senor_bg_mob.jpg);
+        }
+
+        .scontent img {
+          max-width: 600px;
+        }
+
+        .btn-instagram {
+          left: 39%;
+          bottom: 20%;
+        }
+
+        .btn-facebook {
+          left: 42.2%;
+          bottom: 20%;
+        }
+
+        .btn-senor-container {
+          width: 35%;
+        }
+
+        .btn-senor-container {
+          top: 61%;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .scontent img {
+          max-width: 400px;
+        }
+
+        .btn-instagram {
+          left: 34%;
+          bottom: 15.8%;
+        }
+
+        .btn-facebook {
+          left: 38.2%;
+          bottom: 15.8%;
+        }
+
+        .btn-senor-container {
+          width: 50%;
+        }
+
+        .btn-senor-container {
+          top: 60%;
+        }
+
+        .senor-social {
+          width: 4%;
+          height: 4%;
+        }
+      }
+
+      @media (max-width: 360px) {
+        .scontent img {
+          max-width: 340px;
+        }
+
+        .btn-instagram {
+          left: 34%;
+          bottom: 15.8%;
+        }
+
+        .btn-facebook {
+          left: 38.3%;
+          bottom: 15.8%;
+        }
+
+        .btn-senor-container {
+          width: 50%;
+        }
+
+        .btn-senor-container {
+          top: 60%;
+        }
+      }
+
+      @media (max-width: 300px) {
+        .scontent img {
+          max-width: 270px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="homepage-wrapper">
+      <section>
+        <div class="container-fluid p-0 m-0 senor-grooming senor-bg overflow-hidden">
+          <div class="container h-100 justify-content-center d-flex align-items-center">
+            <div class="row">
+              <div class="col-12">
+                <div class="btn-senor-container">
+                  <div class="row">
+                    <div class="col-sm-6 px-0">
+                      <a class="btn-senor senor-appointment" href="https://www.fresha.com/providers/senor-grooming-lounge-gmp9pzv1?pId=484439" target="_blank">
+                        <img src="images/btn-appointment.png" alt="" class="appointment-img" />
+                      </a>
+                    </div>
+                    <div class="col-sm-6 px-0">
+                      <a class="btn-senor senor-service-menu" href="pdf/senor-price-list.pdf" target="_blank">
+                        <img src="images/btn-service.png" alt="" class="service-img" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="senor-social btn-instagram" href="https://instagram.com/senorgrooming?utm_medium=copy_link" target="_blank"> </a>
+                <a class="senor-social btn-facebook" href="https://www.facebook.com/Senorgrooming/" target="_blank"> </a>
+
+                <div class="scontent">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/senor_content_web.png" class="img-fluid mx-auto d-block" />
+                    <source media="(min-width: 575px)" srcset="images/senor_content_tab.png" class="img-fluid mx-auto d-block" />
+                    <source media="(min-width: 0)" srcset="images/senor_content_mob.png" class="img-fluid mx-auto d-block" />
+                    <img width="2560" height="1220" src="images/senor_content_web.png" class="img-fluid mx-auto d-block" />
+                  </picture>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

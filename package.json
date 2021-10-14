@@ -1,0 +1,19 @@
+{
+  "name": "senor-grooming-lounge",
+  "version": "1.0.0",
+  "description": "Señor Grooming Lounge - Coming Soon Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nameisnathalie/senor-grooming-lounge.git"
+  },
+  "author": "Niña Nathalie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nameisnathalie/senor-grooming-lounge/issues"
+  },
+  "homepage": "https://github.com/nameisnathalie/senor-grooming-lounge#readme"
+}
